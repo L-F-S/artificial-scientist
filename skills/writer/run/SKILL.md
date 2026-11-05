@@ -1,5 +1,5 @@
 ---
-name: "writer-run"
+name: writer-run
 description: "Run the NetCoS WRITER: draft or update a research paper or the front-of-house documentation, sourced strictly from verified results. Use when the user types /writer:run, says 'draft the methods', 'write up this section', 'update the docs/README', 'write the paper', or when the Supervisor flags docs/paper drift. Every claim must cite a logged run ID."
 ---
 
@@ -19,7 +19,7 @@ Draft **only from verified artifacts**. Every empirical claim must trace to a lo
 - **Methods may be written now** — they describe *what was done*, independent of whether the biology holds.
 - **Results and conclusions only after verification.** Anything not yet verified is written in a clearly marked *[UNVERIFIED]* block, never as a settled finding.
 
-## Direction of truth: code → docs → paper
+## Direction of truth: code -> docs -> paper
 
 Document *from the code*, not from the paper. Drafting the docs doubles as a Critic pass: while writing, surface any dead / undocumented code, or any place where the code and the methods disagree, and flag it for the Supervisor. When drafting a paper, also check the **target journal's reproducibility / code-availability requirements** and note what the repo must satisfy.
 
@@ -33,7 +33,7 @@ A Writer draft is a *worker output*, not a Lorenzo-facing deliverable. Under the
 
 ## Output
 
-Write the draft into the right place (`paper/…` or the docs), and attach a short **provenance list**: each empirical claim → its run ID / figure / citation. List any claim you had to mark *[UNVERIFIED]* and why. Attach the Critic's final verdict and any residual caveats from the review loop.
+Write the draft into the right place (`paper/…` or the docs), and attach a short **provenance list**: each empirical claim -> its run ID / figure / citation. List any claim you had to mark *[UNVERIFIED]* and why. Attach the Critic's final verdict and any residual caveats from the review loop.
 
 ## Guardrails
 

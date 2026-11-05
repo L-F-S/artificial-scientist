@@ -1,5 +1,5 @@
 ---
-name: "critic-run"
+name: critic-run
 description: "Run the NetCoS CRITIC: adversarially review any worker's output — a Student analysis, result, or a Writer draft — before it is trusted. Use when the user types /critic:run, says 'critique this', 'review this result', 'check this analysis', or when the Supervisor hands off a worker's output for verification. Produces a findings report and feeds the autonomous review-and-revise loop (at least one round, cap 3) so nothing un-reviewed reaches Lorenzo; Lorenzo stays the final gate."
 ---
 
